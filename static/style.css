@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    color: #333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.15); /* Transparent white */
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #f0e7e7;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:rgb(44, 30, 30);
+}
+
+form {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #0077be;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077be;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f94;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.left {
+    text-align: left;
+}
+
+.left h2 {
+    font-size: 48px;
+    margin: 0;
+    color: #040404;
+}
+
+.left h3 {
+    margin: 5px 0 0;
+    font-weight: normal;
+    color: #121212;
+}
+
+.right {
+    text-align: right;
+    color: #0e0e0e;
+}
+
+.icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.condition p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
